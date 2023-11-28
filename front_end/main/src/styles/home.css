@@ -1,0 +1,13 @@
+.cont-tar-funkos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+    align-items: center; 
+    width: 100%;
+    background-image: url('../resources/funko\ background.jpg');
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 5vmin;
+}
+/*ESSTILOS GENERALES PARA HOME*/
