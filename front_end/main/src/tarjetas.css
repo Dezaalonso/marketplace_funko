@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-top: 50px; 
+}
+/* Tarj princi*/
+.tarjeta {
+  width: 200px;
+  height: 180px; 
+  margin: 10px;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  transition: transform .2s;
+  background-image: url("resources/FUNKO-1.jpg");
+  background-size: cover;
+}
+/* Cover de cont tarjeta*/
+.tarjeta:hover {
+  transform: scale(1.1); 
+}
